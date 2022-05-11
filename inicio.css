@@ -1,0 +1,121 @@
+body{
+    background-color: pink;
+    background-image: url("moradovino.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+    
+}
+h1{
+    background-image: url("fondonegro.jpg");
+    text-align: center;
+    color: white;
+    border-style: groove;
+    border-color: purple;
+    margin:auto;
+
+}
+nav{
+        text-align: center;
+        border-style: groove;
+        border-color: purple;
+        width: auto;
+}
+div{
+    width: auto;
+}
+footer{
+    background-color: orange;
+    text-align: center;
+    width: auto;
+    border: 50px;
+    border-style:double;
+    border-color: lightyellow;
+    padding: 10px;
+    
+}
+aside{
+    height: auto;
+   
+    
+    
+}
+.clearfix{
+    clear: both; 
+}
+#caja1{
+    background-color: pink;
+    width: auto;
+    border:dashed;
+    float:none;
+    background-image: url("fondonegro.jpg");
+}
+#caja2{
+    background-color: lightyellow;
+    color: white;
+    float:left;
+    width: 930px;
+    height: 650px;
+    border-color: purple;
+    border-style:groove;
+    opacity: 0.5;
+    background-image: url("caja2.gif");
+    background-size: 100% 100%;
+}
+#caja3{
+    background-color: lightyellow;
+    float:right;
+    width: 930px;
+    height: 650px;
+    border-color: purple;
+    border-style:groove;
+    background-image: url("kty.gif");
+    color: lightyellow;
+    font-size: 30px;
+    opacity: 0.5;
+    background-image: url("vapor12.gif");
+    background-size: 100% 100%;
+}
+#caja4{
+    background-color: gold;
+    float:left;
+    width: 1898px;
+    border-color: purple;
+    border-style: groove;
+    opacity: 0.6;
+    background-image: url("caja4.gif");
+    background-size: 100% 100%;
+}
+button{
+  background-color: pink;
+  border: double;
+  color: purple;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration:blink;
+  display: inline-block;
+  font-size: 16px;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background-color: purple;
+}
